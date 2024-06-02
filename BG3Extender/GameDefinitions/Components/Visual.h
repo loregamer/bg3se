@@ -6,7 +6,6 @@ struct CustomIconComponent : public BaseComponent
 {
 	DEFINE_COMPONENT(CustomIcon, "eoc::CustomIconComponent")
 
-	[[bg3::hidden]]
 	ScratchBuffer Buffer;
 };
 
